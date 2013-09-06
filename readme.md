@@ -33,7 +33,7 @@ comprehend(range(1, 10, 'inclusive'), function(x) { return x * 2 >= 12; }, funct
 
 var id = function(x) { return x; };
 comprehend(range(50, 100, 'inclusive'), function(x) { return x % 7 == 3; }, id);
-> 
+> [52, 59, 66, 73, 80, 87, 94]
 
 comprehend(range(5, 15, 'inclusive'), function(x) {
 		if (x < 10) return 'BOOM!';
@@ -45,7 +45,7 @@ comprehend([2,5,10], [8,10,11], function(x,y) { return x * y; });
 > [16, 20, 22, 40, 50, 55, 80, 100, 110]
 
 comprehend([2,5,10], [8,10,11], [1,2,3], function(x,y,z) { return x * y * z; });
->
+> [16, 32, 48, 20, 40, 60, 22, 44, 66, 40, 80, 120, 50, 100, 150, 55, 110, 165, 80, 160, 240, 100, 200, 300, 110, 220, 330]
 
 var nouns = ['hobo', 'frog', 'pope'];
 var adjs = ['lazy', 'grouchy', 'scheming'];

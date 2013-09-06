@@ -1,6 +1,6 @@
 
-var comprehend = require('./array-comprehension');
 var range = require('range-function');
+var comprehend = require('./array-comprehension');
 
 console.log(comprehend([1,2,3,4,5,6], [4,3,2,1], function(x, y) { return x + y; }));
 
