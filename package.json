@@ -1,0 +1,30 @@
+{
+  "name": "array-comprehension",
+  "version": "0.1.0",
+  "description": "Declaratively construct arrays.",
+  "main": "array-comprehension.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-swerve/array-comprehension.git"
+  },
+  "keywords": [
+    "array",
+    "list",
+    "comprehension",
+    "builder",
+    "iterate",
+    "functional",
+    "haskell"
+  ],
+  "author": "jay r bolton <jayrbolton@gmail.com> (http://jayrbolton.com/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/the-swerve/array-comprehension/issues"
+  }
+}
