@@ -18,8 +18,6 @@ The return value of 'function' produces each element in the resulting array.
 
 ```javascript
 
-# npm install -g array-comprehension
-
 var comprehend = require('array-comprehension');
 
 comprehend([1,2,3,4,5,6], [4,3,2,1], function(x, y) { return x + y; });
